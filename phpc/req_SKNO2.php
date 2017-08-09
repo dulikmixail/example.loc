@@ -21,19 +21,13 @@ $content .= '
 <input id="time" type="text" value="" />
 
 <script type="text/javascript">
-jQuery(\'#time\').click(function() {
+jQuery(\'#date\').change(function() {
 
 if(jQuery(\'#date\').val()==""){
 jQuery(\'#date\').focus();
 alert("Ведите дату!!")
 } else {
-    $.ajax({
-        type: "GET",
-        url: "/example.loc/phpc/ajaxtest.php",
-        data: getDateJson(),
-        success: onAjaxSuccess,
-        async: false,
-    });
+   
 }
   
  
@@ -64,6 +58,7 @@ jQuery(\'#time\').datetimepicker({
 
 function onAjaxSuccess(data)
 {
+    alert(data)
     var parsed = JSON.parse(data);
     var arr = [];
     for(var x in parsed){
