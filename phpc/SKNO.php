@@ -26,53 +26,53 @@ $content .='
 <form action="SKNO?a=finish" method="post">
 <div class="skno_form">
 
-<label for="unp">УНП</label><input type="number" name="unp" id="unp" placeholder="123456789" value="123456789"><br>
-<label for="company">Наименование</label><input type="text" name="company" id="company" placeholder="ИП Рога и копыта" value="ИП Рога и копыта"><br>
-<label for="fio">ФИО ответственного за КО</label><input type="text" name="fio" id="fio" placeholder="Петров Иван Иваныч" value="Петров Иван Иваныч"><br>
-<label for="tel">Телефон</label><input type="text" name="tel" id="tel" placeholder="+375-(17)-200-10-20" value="+375-(17)-200-10-20"><br>
-<label for="fax">Факс</label><input type="text" name="fax" id="fax" placeholder="+375-(17)-200-20-30" value="+375-(17)-200-20-30"><br>
-<label for="mob">Мобильный телефон</label><input type="text" name="mob" id="mob" placeholder="+375-(29)-610-10-20" value="+375-(29)-610-10-20"><br>
+<label for="unp">РЈРќРџ</label><input type="number" name="unp" id="unp" placeholder="123456789" value="123456789"><br>
+<label for="company">РќР°РёРјРµРЅРѕРІР°РЅРёРµ</label><input type="text" name="company" id="company" placeholder="РРџ Р РѕРіР° Рё РєРѕРїС‹С‚Р°" value="РРџ Р РѕРіР° Рё РєРѕРїС‹С‚Р°"><br>
+<label for="fio">Р¤РРћ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РљРћ</label><input type="text" name="fio" id="fio" placeholder="РџРµС‚СЂРѕРІ РРІР°РЅ РРІР°РЅС‹С‡" value="РџРµС‚СЂРѕРІ РРІР°РЅ РРІР°РЅС‹С‡"><br>
+<label for="tel">РўРµР»РµС„РѕРЅ</label><input type="text" name="tel" id="tel" placeholder="+375-(17)-200-10-20" value="+375-(17)-200-10-20"><br>
+<label for="fax">Р¤Р°РєСЃ</label><input type="text" name="fax" id="fax" placeholder="+375-(17)-200-20-30" value="+375-(17)-200-20-30"><br>
+<label for="mob">РњРѕР±РёР»СЊРЅС‹Р№ С‚РµР»РµС„РѕРЅ</label><input type="text" name="mob" id="mob" placeholder="+375-(29)-610-10-20" value="+375-(29)-610-10-20"><br>
 <label for="email">Email</label><input type="email" name="email" id="email" placeholder="example@google.com" value="example@google.com"><br>
-<label for="address">Почтовый адрес</label><input type="text" name="address" id="address" placeholder="ул. Пушкина 1" value="ул. Пушкина 1"><br><br>
+<label for="address">РџРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ</label><input type="text" name="address" id="address" placeholder="СѓР». РџСѓС€РєРёРЅР° 1" value="СѓР». РџСѓС€РєРёРЅР° 1"><br><br>
 
 
-<label for="using">Вид использования КО</label>
+<label for="using">Р’РёРґ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РљРћ</label>
 <select id="using" name="using">
-  <option selected>Постоянное</option>
-  <option>Резервное</option>
+  <option selected>РџРѕСЃС‚РѕСЏРЅРЅРѕРµ</option>
+  <option>Р РµР·РµСЂРІРЅРѕРµ</option>
 </select><br>
 
-<label for="tariff">Выбранный тарифный план</label>
+<label for="tariff">Р’С‹Р±СЂР°РЅРЅС‹Р№ С‚Р°СЂРёС„РЅС‹Р№ РїР»Р°РЅ</label>
 <select id="tariff" name="tariff">
-  <option selected>Месячный</option>
-  <option>Суточный</option>
+  <option selected>РњРµСЃСЏС‡РЅС‹Р№</option>
+  <option>РЎСѓС‚РѕС‡РЅС‹Р№</option>
 </select><br>
 
-<label for="diff_accounting">Дифференцированный учет данных о товаре:</label>
+<label for="diff_accounting">Р”РёС„С„РµСЂРµРЅС†РёСЂРѕРІР°РЅРЅС‹Р№ СѓС‡РµС‚ РґР°РЅРЅС‹С… Рѕ С‚РѕРІР°СЂРµ:</label>
 <select id="diff_accounting" name="diff_accounting">
-  <option>Да</option>
-  <option selected>Нет</option>
+  <option>Р”Р°</option>
+  <option selected>РќРµС‚</option>
 </select><br>
 
-<label for="condition">Новое КО, или ранее использованное</label>
+<label for="condition">РќРѕРІРѕРµ РљРћ, РёР»Рё СЂР°РЅРµРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅРѕРµ</label>
 <select id="condition" name="condition"> 
-  <option selected>Новое</option>
-  <option>Ранее использовалось</option>
+  <option selected>РќРѕРІРѕРµ</option>
+  <option>Р Р°РЅРµРµ РёСЃРїРѕР»СЊР·РѕРІР°Р»РѕСЃСЊ</option>
 </select><br>
 
-<label for="ro_type">Тип торгового объекта:</label>
-<input type="text" name="ro_type" id="ro_type" placeholder="Магазин" value="Магазин"><br><br>
+<label for="ro_type">РўРёРї С‚РѕСЂРіРѕРІРѕРіРѕ РѕР±СЉРµРєС‚Р°:</label>
+<input type="text" name="ro_type" id="ro_type" placeholder="РњР°РіР°Р·РёРЅ" value="РњР°РіР°Р·РёРЅ"><br><br>
 
-<label for="ro_name">Наименование торгового объекта</label>
-<input type="text" name="ro_name" id="ro_name" placeholder="Мебельный магазин Ромашка" value="Мебельный магазин Ромашка"><br><br>
+<label for="ro_name">РќР°РёРјРµРЅРѕРІР°РЅРёРµ С‚РѕСЂРіРѕРІРѕРіРѕ РѕР±СЉРµРєС‚Р°</label>
+<input type="text" name="ro_name" id="ro_name" placeholder="РњРµР±РµР»СЊРЅС‹Р№ РјР°РіР°Р·РёРЅ Р РѕРјР°С€РєР°" value="РњРµР±РµР»СЊРЅС‹Р№ РјР°РіР°Р·РёРЅ Р РѕРјР°С€РєР°"><br><br>
 
-<label for="ro_address">Адрес торгового объекта:</label>
-<input type="text" name="ro_address" id="ro_address" placeholder="Минский обл., Минский рн., г.Минск., ул. Пушкина 1/50, Офис 32" value="Минский обл., Минский рн., г.Минск., ул. Пушкина 1/50, Офис 32"><br><br>
+<label for="ro_address">РђРґСЂРµСЃ С‚РѕСЂРіРѕРІРѕРіРѕ РѕР±СЉРµРєС‚Р°:</label>
+<input type="text" name="ro_address" id="ro_address" placeholder="РњРёРЅСЃРєРёР№ РѕР±Р»., РњРёРЅСЃРєРёР№ СЂРЅ., Рі.РњРёРЅСЃРє., СѓР». РџСѓС€РєРёРЅР° 1/50, РћС„РёСЃ 32" value="РњРёРЅСЃРєРёР№ РѕР±Р»., РњРёРЅСЃРєРёР№ СЂРЅ., Рі.РњРёРЅСЃРє., СѓР». РџСѓС€РєРёРЅР° 1/50, РћС„РёСЃ 32"><br><br>
 
-<label for="ro_time">Время работы торгового объекта</label>
+<label for="ro_time">Р’СЂРµРјСЏ СЂР°Р±РѕС‚С‹ С‚РѕСЂРіРѕРІРѕРіРѕ РѕР±СЉРµРєС‚Р°</label>
 <input type="text" name="ro_time" id="ro_time" placeholder="08:00 - 18:00" value="08:00 - 18:00"><br><br>
 
-<input type="submit" value="Отправить">
+<input type="submit" value="РћС‚РїСЂР°РІРёС‚СЊ">
 
 </div>
 </form>';
